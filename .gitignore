@@ -1,0 +1,24 @@
+# Ignore all files in configs, templates and certs directories
+configs/*
+templates/*
+!templates/*.example.template
+
+# Ignore generated files
+*.ovpn
+*.conf
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Certificate files
+*.key
+*.crt
+*.pem
+*.csr
+*.srl 
